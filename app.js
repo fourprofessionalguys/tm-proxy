@@ -28,6 +28,14 @@ app.get('/reviews', (req, res) => {
   res.redirect('http://13.57.29.73:3002/reviews')
 });
 
+app.get('/images', (req, res) => {
+  res.redirect('http://54.193.109.243:3001/images')
+})
+
+app.get('/products', (req, res) => {
+  res.redirect('http://54.193.109.243:3001/products')
+})
+
 
 app.listen(3333, (err) => {
   if (err) {
